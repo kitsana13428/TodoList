@@ -19,7 +19,9 @@ body{
 .card {
     width: 500px;
     height: 530px;
-    background-color: #bebdbd;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 64%);
+    min-height: 0;
     border-radius: 40px; /* ขอบมุม */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* เงา */
     padding: 50px;
@@ -72,4 +74,73 @@ body{
     overflow: auto;
     display: flex;
     flex-direction: column;
+}
+
+.items {
+    padding: 10px;
+    background: #fafafafa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-control {
+    display: flex;
+}
+
+.btn-edit {
+    padding: 5px;
+    border-radius: 5px;
+    background: #f1c40f;
+    color: black;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-edit:hover {
+    background: #cfa90d;
+}
+
+.btn-delete {
+    padding: 5px;
+    border-radius: 5px;
+    background: #e74c3c;
+    color: black;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-delete:hover {
+    background: #a7382c;
+}
+
+.txt-edit {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+.txt-edit:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-save {
+    padding: 5px;
+    border-radius: 5px;
+    background: #2ecc71;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.btn-save:hover {
+    background: #1f8a4c;
 }
